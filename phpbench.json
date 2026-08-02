@@ -22,35 +22,26 @@
             "components": [
                 {
                     "component": "section",
-                    "tabbed": true,
-                    "tab_labels": [
-                        "Time",
-                        "Memory"
+                    "title": "Results",
+                    "partition": [
+                        "subject_name"
                     ],
                     "components": [
                         {
-                            "component": "section",
-                            "title": "Results",
-                            "components": [
-                                {
-                                    "component": "table_aggregate",
-                                    "title": "{{ first(frame.suite_tag) }}",
-                                    "partition": [
-                                        "benchmark_name",
-                                        "subject_name",
-                                        "variant_name"
-                                    ],
-                                    "row": {
-                                        "benchmark": "first(partition['benchmark_name'])",
-                                        "subject": "first(partition['subject_name'])",
-                                        "memory": "first(partition['result_mem_peak']) as memory",
-                                        "min": "min(partition['result_time_avg']) as time",
-                                        "max": "max(partition['result_time_avg']) as time",
-                                        "mode": "mode(partition['result_time_avg']) as time",
-                                        "rstdev": "rstdev(partition['result_time_avg'])"
-                                    }
-                                }
-                            ]
+                            "component": "table_aggregate",
+                            "title": "{{ first(frame['subject_name']) }}",
+                            "partition": [
+                                "benchmark_name",
+                                "variant_name"
+                            ],
+                            "row": {
+                                "benchmark": "first(partition['benchmark_name'])",
+                                "memory": "first(partition['result_mem_peak']) as memory",
+                                "min": "min(partition['result_time_avg']) as time",
+                                "max": "max(partition['result_time_avg']) as time",
+                                "mode": "mode(partition['result_time_avg']) as time",
+                                "rstdev": "rstdev(partition['result_time_avg'])"
+                            }
                         }
                     ]
                 }

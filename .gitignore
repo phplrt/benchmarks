@@ -12,6 +12,5 @@
 Thumbs.db
 
 # Benchmarks
-/var
 /tools/*/vendor
 /tools/*/composer.lock

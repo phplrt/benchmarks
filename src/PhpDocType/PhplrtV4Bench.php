@@ -46,45 +46,8 @@ final readonly class PhplrtV4Bench extends PhpDocTypeBenchCase
         $this->parser = new PhplrtV4Parser();
     }
 
-    public function benchCommonType25b(): void
+    protected function parse(string $content): void
     {
-        foreach ($this->types['common-type-25b.txt'] as $type) {
-            $this->parser->parse(new Source($type));
-        }
-    }
-
-    public function benchCommonType250b(): void
-    {
-        foreach ($this->types['common-type-250b.txt'] as $type) {
-            $this->parser->parse(new Source($type));
-        }
-    }
-
-    public function benchCommonType1k(): void
-    {
-        foreach ($this->types['common-type-1k.txt'] as $type) {
-            $this->parser->parse(new Source($type));
-        }
-    }
-
-    public function benchCommonType10k(): void
-    {
-        foreach ($this->types['common-type-10k.txt'] as $type) {
-            $this->parser->parse(new Source($type));
-        }
-    }
-
-    public function benchCommonType100k(): void
-    {
-        foreach ($this->types['common-type-100k.txt'] as $type) {
-            $this->parser->parse(new Source($type));
-        }
-    }
-
-    public function benchCommonType250k(): void
-    {
-        foreach ($this->types['common-type-250k.txt'] as $type) {
-            $this->parser->parse(new Source($type));
-        }
+        $this->parser->parse(new Source($content));
     }
 }

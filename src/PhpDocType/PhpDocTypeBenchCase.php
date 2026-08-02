@@ -50,6 +50,11 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
             $this->types = $types;
         }
 
+        // Prepare cache directory
+        if (!\is_dir(self::CACHE_DIRECTORY)) {
+            @\mkdir(self::CACHE_DIRECTORY, recursive: true);
+        }
+
         // Boot
         $this->boot(self::install(static::TOOL));
     }
@@ -59,11 +64,56 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
      */
     abstract protected function boot(string $directory): void;
 
+    abstract protected function parse(string $content): void;
+
     /**
      * @return non-empty-string
      */
     protected static function grammar(string $name): string
     {
         return __DIR__ . '/Grammar/' . $name;
+    }
+
+
+    public function benchCommonType25b(): void
+    {
+        foreach ($this->types['common-type-25b.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType250b(): void
+    {
+        foreach ($this->types['common-type-250b.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType1k(): void
+    {
+        foreach ($this->types['common-type-1k.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType10k(): void
+    {
+        foreach ($this->types['common-type-10k.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType100k(): void
+    {
+        foreach ($this->types['common-type-100k.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType250k(): void
+    {
+        foreach ($this->types['common-type-250k.txt'] as $type) {
+            $this->parse($type);
+        }
     }
 }
