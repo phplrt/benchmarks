@@ -1,14 +1,8 @@
 {
     "description": "phplrt 4.x, taken from the working copy this benchmark lives in",
     "require": {
-        "phplrt/phplrt": "*"
+        "phplrt/phplrt": "^4.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../../../"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

@@ -3,5 +3,7 @@
     "require": {
         "hoa/compiler": "^3.17",
         "hoa/file": "^1.17"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

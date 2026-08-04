@@ -3,5 +3,6 @@
     "require": {
         "phplrt/phplrt": "^3.0"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
