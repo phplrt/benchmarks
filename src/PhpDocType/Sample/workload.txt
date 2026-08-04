@@ -1,0 +1,600 @@
+non-empty-list<Demo\Entity\Tag208>
+list<Demo\Entity\Line254>|null
+array<string, Demo\Dto\Field472>
+array{name?: string, age?: int, ref: Demo\Entity\Ref122}
+?Demo\Entity\Order21
+list<mixed>
+Demo\Dto\Result246|false
+?Demo\Entity\Order309
+literal-string
+Demo\Contract\Repository157
+Demo\Contract\Repository15
+Demo\Contract\Repository299
+\Demo\Dto\Payload175
+Traversable<array-key, Demo\Entity\Leaf85>
+?Demo\Entity\Order22
+list<Demo\Entity\Row465>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User257}
+?Demo\Entity\Order161
+resource
+Demo\Enum\Status272::ACTIVE
+list<Demo\Entity\Line256>|null
+callable(int): bool
+?iterable
+array<string, Demo\Dto\Field44>
+\Demo\Dto\Payload174
+array<string, list<Demo\Entity\Node209>>
+bool
+Demo\Collection\TypedList361<Demo\Entity\Post361>
+list<Demo\Entity\Row35>
+'demo.entity273.created'|'demo.entity273.deleted'
+Demo\Entity\User1
+Item171
+Demo\Contract\Arrayable423&Demo\Contract\Jsonable423
+array{0: int, 1: Demo\Vo\Point124}
+Demo\Dto\Result102|false
+array{name?: string, age?: int, ref: Demo\Entity\Ref263}
+Demo\Collection\TypedList357<Demo\Entity\Post357>
+array<int, Demo\Vo\Money193>
+Demo\Entity\User9
+array{data: array{id: int, tags: list<Demo\Entity\Tag267>}, total: int}
+Demo\Collection\TypedList77<Demo\Entity\Post77>
+Demo\Contract\Arrayable282&Demo\Contract\Jsonable282
+non-empty-list<Demo\Entity\Tag66>
+class-string<Demo\Contract\Handler364>
+Demo\Collection\TypedList78<Demo\Entity\Post78>
+Closure(): void
+list<Demo\Entity\Row184>
+class-string<Demo\Contract\Handler509>
+Demo\Contract\Repository438
+(Demo\Contract\Countable142&Stringable)[]
+Item28
+\Demo\Dto\Payload34
+Demo\Entity\User431
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User261}
+Demo\Enum\Status270::ACTIVE
+Demo\Entity\User149
+\Demo\Dto\Payload316
+int|string|bool
+Item452
+array<string, list<Demo\Entity\Node68>>
+Demo\Entity\User434
+Demo\Collection\TypedList502<Demo\Entity\Post502>
+?Demo\Entity\Order24
+list<Demo\Entity\Line396>|null
+non-empty-list<int>
+\Demo\Dto\Payload33
+list<Demo\Entity\Row326>
+\Demo\Dto\Payload315
+Closure(Demo\Dto\Request279): Demo\Dto\Response279
+non-empty-list<Demo\Entity\Tag64>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User115}
+Demo\Entity\Account522|null
+non-empty-list<Demo\Entity\Tag207>
+Demo\Entity\User144
+class-string
+bool[]
+object
+Demo\Enum\Status127::ACTIVE
+\Demo\Dto\Payload458
+Demo\Entity\Account96|null
+Demo\Contract\Repository300
+Demo\Entity\Photo57[]
+Demo\Entity\User143
+Item30
+Demo\Collection\Map517<Demo\Vo\Key517, Demo\Vo\Value517>
+array{name?: string, age?: int, ref: Demo\Entity\Ref406}
+non-empty-list<Demo\Entity\Tag492>
+Demo\Entity\Account238|null
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User401}
+iterable<string>
+list<Demo\Entity\Row319>
+Demo\Entity\User150
+array<array-key, mixed>
+class-string<Demo\Contract\Handler222>
+non-empty-array<string, Demo\Dto\Header498>
+list<Demo\Entity\Row469>
+list<Demo\Entity\Row466>
+Demo\Entity\File394|Demo\Entity\Image394|null
+list<Demo\Entity\Row180>
+Demo\Dto\Result103|false
+class-string<Demo\Contract\Handler225>
+Demo\Entity\Photo200[]
+Demo\Entity\File110|Demo\Entity\Image110|null
+Demo\Entity\User288
+Demo\Entity\User2
+list<Demo\Entity\Row461>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User258}
+list<Demo\Entity\Row41>
+Item26
+array{id: int}
+?Demo\Entity\Order447
+list<Demo\Entity\Row325>
+Demo\Entity\Photo484[]
+Demo\Contract\Repository444
+array{0: int, 1: Demo\Vo\Point407}
+Demo\Entity\User152
+int<min, 0>
+Demo\Entity\Account240|null
+iterable<int, Demo\Event\Message61>
+array{name?: string, age?: int, ref: Demo\Entity\Ref120}
+Traversable<array-key, Demo\Entity\Leaf228>
+class-string<Demo\Contract\Handler507>
+array{0: int, 1: Demo\Vo\Point408}
+list<Demo\Entity\Line114>|null
+Demo\Entity\Account99|null
+Demo\Entity\User7
+Demo\Entity\Account241|null
+?Demo\Entity\Order451
+list<Demo\Entity\Row179>
+array<string, Demo\Dto\Field331>
+?float
+Demo\Enum\Status411::ACTIVE
+Demo\Collection\Map374<Demo\Vo\Key374, Demo\Vo\Value374>
+positive-int
+iterable<int, Demo\Event\Message62>
+array<string, Demo\Dto\Field49>
+Demo\Collection\TypedList75<Demo\Entity\Post75>
+?Demo\Entity\Order446
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User119}
+Demo\Entity\Photo483[]
+non-empty-array<string, Demo\Dto\Header497>
+Demo\Entity\User145
+list<Demo\Entity\Line397>|null
+?int
+Demo\Entity\File253|Demo\Entity\Image253|null
+?Demo\Entity\Order308
+list<Demo\Entity\Line112>|null
+lowercase-string
+?array
+null
+callable(Demo\Entity\User278): bool
+Generator<int, Demo\Entity\Chunk514, mixed, void>
+array{0: int, 1: Demo\Vo\Point123}
+array<int, Demo\Vo\Money478>
+array<string, Demo\Dto\Field189>
+Generator<int, Demo\Entity\Chunk87, mixed, void>
+\Demo\Dto\Payload317
+'demo.entity274.created'|'demo.entity274.deleted'
+array<int, Demo\Vo\Money194>
+Demo\Contract\Repository298
+Demo\Contract\Repository301
+array{data: array{id: int, tags: list<Demo\Entity\Tag409>}, total: int}
+non-empty-array<string, Demo\Dto\Header356>
+array<int, Demo\Vo\Money338>
+non-empty-array<string, Demo\Dto\Header212>
+array<int, Demo\Vo\Money52>
+Demo\Entity\User285
+iterable<int, Demo\Event\Message486>
+Traversable<array-key, Demo\Entity\Leaf511>
+array<string, Demo\Dto\Field470>
+list<Demo\Entity\Row38>
+Demo\Entity\User151
+?object
+array{0: int, 1: Demo\Vo\Point266}
+string|Demo\Enum\Status107
+Demo\Collection\Map90<Demo\Vo\Key90, Demo\Vo\Value90>
+array<int, Demo\Vo\Money195>
+class-string<Demo\Contract\Handler506>
+Item172
+Demo\Dto\Result242|false
+\Demo\Dto\Payload32
+callable(): void
+array{0: int, 1: Demo\Vo\Point265}
+Demo\Entity\User294
+non-empty-string
+float
+Generator<int, Demo\Entity\Chunk230, mixed, void>
+non-empty-array<string, Demo\Dto\Header214>
+string|Demo\Enum\Status106
+Demo\Contract\Arrayable281&Demo\Contract\Jsonable281
+string|Demo\Enum\Status250
+array<string, list<Demo\Entity\Node210>>
+Item454
+Item27
+Demo\Collection\TypedList500<Demo\Entity\Post500>
+Demo\Dto\Result243|false
+Demo\Entity\Account382|null
+false
+\Demo\Dto\Payload457
+Demo\Entity\User148
+Demo\Enum\Status414::ACTIVE
+Demo\Entity\User10
+array<int, Demo\Vo\Money51>
+int|float
+non-empty-array<string, Demo\Dto\Header70>
+class-string<Demo\Contract\Handler223>
+array<string, Demo\Dto\Field187>
+array<string, list<Demo\Entity\Node493>>
+Demo\Entity\File111|Demo\Entity\Image111|null
+array<int, Demo\Vo\Money53>
+mixed[]
+list<Demo\Entity\Row324>
+array<int, Demo\Vo\Money336>
+callable(Demo\Entity\User420): bool
+int<0, max>
+Demo\Entity\Account235|null
+Demo\Dto\Result387|false
+callable(Demo\Entity\User277): bool
+list<int>
+Demo\Enum\Status271::ACTIVE
+non-empty-array<string, Demo\Dto\Header496>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User118}
+'demo.entity132.created'|'demo.entity132.deleted'
+?Demo\Entity\Order445
+string|Demo\Enum\Status391
+array<string, Demo\Dto\Field329>
+'demo.entity415.created'|'demo.entity415.deleted'
+Closure(Demo\Dto\Request137): Demo\Dto\Response137
+callable(Demo\Entity\User134): bool
+array<string, Demo\Dto\Field332>
+Demo\Collection\TypedList76<Demo\Entity\Post76>
+list<Demo\Entity\Row182>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User117}
+(Demo\Contract\Countable141&Stringable)[]
+iterable<int, Demo\Event\Message204>
+Demo\Contract\Arrayable140&Demo\Contract\Jsonable140
+array<int, Demo\Vo\Money197>
+array<int, string>
+Demo\Entity\Account95|null
+string|Demo\Enum\Status108
+list<Demo\Entity\Line398>|null
+Demo\Entity\User147
+array
+array<string, list<Demo\Entity\Node351>>
+string|Demo\Enum\Status392
+Demo\Contract\Repository160
+array<string, list<Demo\Entity\Node69>>
+Item169
+class-string<Demo\Contract\Handler508>
+Demo\Entity\Photo341[]
+array<string, list<Demo\Entity\Node353>>
+Demo\Entity\Photo59[]
+Generator<int, Demo\Entity\Chunk88, mixed, void>
+'demo.entity417.created'|'demo.entity417.deleted'
+Demo\Entity\Photo198[]
+Generator<int, Demo\Entity\Chunk372, mixed, void>
+array<string, Demo\Dto\Field191>
+(Demo\Contract\Countable426&Stringable)[]
+array<int, Demo\Vo\Money481>
+Demo\Contract\Repository155
+array{name?: string, age?: int, ref: Demo\Entity\Ref404}
+array<string, Demo\Dto\Field474>
+Demo\Entity\Account520|null
+'demo.entity275.created'|'demo.entity275.deleted'
+Demo\Dto\Result244|false
+?callable
+class-string<Demo\Contract\Handler83>
+string|Demo\Enum\Status390
+Demo\Entity\User430
+?Demo\Entity\Order304
+array<int, Demo\Vo\Money339>
+list<Demo\Entity\Row43>
+string[]
+Item168
+array<int, Demo\Vo\Money335>
+'demo.entity131.created'|'demo.entity131.deleted'
+Item312
+Demo\Entity\User293
+Item311
+?Demo\Entity\Order23
+Demo\Contract\Repository14
+Demo\Collection\TypedList217<Demo\Entity\Post217>
+Demo\Entity\Account94|null
+?Demo\Entity\Order166
+Demo\Entity\User286
+numeric-string
+Demo\Entity\User146
+Demo\Entity\Account521|null
+Traversable<array-key, Demo\Entity\Leaf226>
+list<Demo\Entity\Row462>
+array{data: array{id: int, tags: list<Demo\Entity\Tag125>}, total: int}
+Generator<int, Demo\Entity\Chunk513, mixed, void>
+Demo\Contract\Repository17
+class-string<Demo\Contract\Handler81>
+list<Demo\Entity\Row463>
+callable(Demo\Entity\User135): bool
+Demo\Entity\User4
+list<Demo\Entity\Row39>
+callable(Demo\Entity\User136): bool
+non-empty-array<string, Demo\Dto\Header354>
+list<Demo\Entity\Row185>
+array<string, Demo\Dto\Field334>
+non-empty-array<string, Demo\Dto\Header355>
+?Demo\Entity\Order306
+mixed
+Demo\Entity\Photo199[]
+?Demo\Entity\Order164
+?Demo\Entity\Order167
+\Demo\Dto\Payload173
+array<string, Demo\Dto\Field47>
+array[]
+iterable<int, Demo\Event\Message345>
+iterable<int, Demo\Event\Message488>
+iterable<int, Demo\Event\Message347>
+Demo\Collection\TypedList504<Demo\Entity\Post504>
+array<string, list<Demo\Entity\Node67>>
+non-empty-list<Demo\Entity\Tag490>
+?Demo\Entity\Order450
+list<Demo\Entity\Row37>
+callable-string
+array{data: array{id: int, tags: list<Demo\Entity\Tag268>}, total: int}
+string|Demo\Enum\Status249
+list<Demo\Entity\Row40>
+array{name?: string, age?: int, ref: Demo\Entity\Ref264}
+Demo\Entity\Photo340[]
+array{name?: string, age?: int, ref: Demo\Entity\Ref121}
+array{name?: string, age?: int, ref: Demo\Entity\Ref405}
+Demo\Entity\Account380|null
+Demo\Collection\TypedList220<Demo\Entity\Post220>
+array<string, Demo\Dto\Field48>
+Item453
+Demo\Collection\TypedList74<Demo\Entity\Post74>
+?Demo\Entity\Order20
+Demo\Entity\Photo485[]
+iterable<int, Demo\Event\Message487>
+list<Demo\Entity\Row177>
+list<Demo\Entity\Line113>|null
+Generator<int, Demo\Entity\Chunk371, mixed, void>
+Demo\Dto\Result245|false
+list<Demo\Entity\Row464>
+array<string, Demo\Dto\Field188>
+array<string, list<Demo\Entity\Node211>>
+Demo\Contract\Repository158
+iterable<int, Demo\Event\Message203>
+string|Demo\Enum\Status105
+(Demo\Contract\Countable284&Stringable)[]
+Traversable<array-key, Demo\Entity\Leaf84>
+non-empty-array<string, Demo\Dto\Header71>
+Demo\Entity\File393|Demo\Entity\Image393|null
+Demo\Enum\Status130::ACTIVE
+iterable<int, Demo\Event\Message63>
+Item314
+Demo\Contract\Repository442
+Demo\Dto\Result388|false
+array<string, Demo\Dto\Field50>
+Demo\Entity\Account519|null
+Demo\Contract\Repository296
+Demo\Entity\User8
+array<string, string>
+Demo\Enum\Status413::ACTIVE
+array<string, Demo\Dto\Field45>
+\Demo\Dto\Payload459
+Demo\Dto\Result385|false
+array<string, Demo\Dto\Field471>
+class-string<Demo\Contract\Handler505>
+Item29
+Demo\Entity\Photo201[]
+array{data: array{id: int, tags: list<Demo\Entity\Tag126>}, total: int}
+Generator<int, Demo\Entity\Chunk515, mixed, void>
+array<string, Demo\Dto\Field475>
+?Demo\Entity\Order307
+array<string, Demo\Dto\Field46>
+static
+scalar
+list<Demo\Entity\Row327>
+Demo\Collection\Map233<Demo\Vo\Key233, Demo\Vo\Value233>
+class-string<Demo\Contract\Handler367>
+void
+Demo\Entity\Account234|null
+array<int, Demo\Vo\Money480>
+Item310
+array<int, Demo\Vo\Money196>
+string|Demo\Enum\Status389
+Demo\Contract\Repository12
+?Demo\Entity\Order25
+list<Demo\Entity\Row467>
+Demo\Collection\Map516<Demo\Vo\Key516, Demo\Vo\Value516>
+Demo\Dto\Result386|false
+?Demo\Entity\Order165
+array<string, list<Demo\Entity\Node352>>
+Demo\Entity\Account97|null
+$this
+?Demo\Entity\Order449
+Demo\Entity\Account98|null
+string|Demo\Enum\Status248
+array<int, Demo\Vo\Money477>
+Demo\Enum\Status128::ACTIVE
+non-empty-array<string, Demo\Dto\Header213>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User399}
+Demo\Contract\Repository295
+'demo.entity133.created'|'demo.entity133.deleted'
+Demo\Entity\User6
+Demo\Dto\Result101|false
+Demo\Collection\TypedList218<Demo\Entity\Post218>
+int<1, max>
+Demo\Contract\Arrayable139&Demo\Contract\Jsonable139
+Item455
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User400}
+array<string, Demo\Dto\Field333>
+Demo\Entity\User3
+Demo\Collection\TypedList73<Demo\Entity\Post73>
+(Demo\Contract\Countable425&Stringable)[]
+?Demo\Entity\Order163
+array<string, Demo\Dto\Field476>
+Demo\Contract\Repository13
+Demo\Entity\User427
+?string
+Demo\Dto\Result104|false
+Traversable<array-key, Demo\Entity\Leaf227>
+Demo\Contract\Repository11
+int
+array<string, Demo\Dto\Field330>
+Traversable<array-key, Demo\Entity\Leaf370>
+Demo\Collection\TypedList501<Demo\Entity\Post501>
+Demo\Entity\User429
+\Demo\Dto\Payload460
+Demo\Contract\Repository443
+Generator<int, Demo\Entity\Chunk89, mixed, void>
+Demo\Contract\Repository297
+Demo\Contract\Repository440
+callable(Demo\Entity\User276): bool
+Demo\Entity\User435
+Demo\Entity\Account236|null
+string
+array{data: array{id: int, tags: list<Demo\Entity\Tag410>}, total: int}
+array<string, Demo\Dto\Field192>
+Demo\Collection\TypedList219<Demo\Entity\Post219>
+Demo\Contract\Repository18
+\Demo\Dto\Payload176
+Demo\Entity\Photo58[]
+Demo\Entity\User5
+Demo\Collection\TypedList358<Demo\Entity\Post358>
+iterable<int, string>
+array<int, Demo\Vo\Money479>
+self
+non-empty-list<Demo\Entity\Tag65>
+Demo\Entity\User436
+string|Demo\Enum\Status247
+list<Demo\Entity\Row320>
+array<string, Demo\Dto\Field328>
+Traversable<array-key, Demo\Entity\Leaf510>
+Demo\Collection\TypedList359<Demo\Entity\Post359>
+string|int|null
+non-empty-list<Demo\Entity\Tag491>
+non-empty-array<string, Demo\Dto\Header72>
+class-string<Demo\Contract\Handler79>
+Demo\Enum\Status129::ACTIVE
+iterable<int, Demo\Event\Message489>
+array<string, Demo\Dto\Field473>
+int<0, 100>
+non-empty-list<Demo\Entity\Tag348>
+Closure(Demo\Dto\Request422): Demo\Dto\Response422
+class-string<Demo\Contract\Handler366>
+'demo.entity416.created'|'demo.entity416.deleted'
+Demo\Entity\User291
+Demo\Collection\Map375<Demo\Vo\Key375, Demo\Vo\Value375>
+iterable<int, Demo\Event\Message346>
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User259}
+list<string>
+array{name?: string, age?: int, ref: Demo\Entity\Ref262}
+non-empty-list<Demo\Entity\Tag349>
+callable(Demo\Entity\User419): bool
+int|false
+non-empty-list<Demo\Entity\Tag350>
+Demo\Collection\TypedList503<Demo\Entity\Post503>
+Demo\Entity\User292
+list
+array<string, list<Demo\Entity\Node494>>
+array<int, Demo\Vo\Money55>
+Demo\Entity\File395|Demo\Entity\Image395|null
+Item170
+?Demo\Entity\Order19
+non-empty-list
+array-key
+Closure(Demo\Dto\Request280): Demo\Dto\Response280
+Traversable<array-key, Demo\Entity\Leaf86>
+string[][]
+Demo\Entity\Account92|null
+Demo\Entity\Photo56[]
+Demo\Contract\Repository156
+array{id: int, name: string}
+array{int, string}
+Demo\Collection\TypedList216<Demo\Entity\Post216>
+\Demo\Dto\Payload31
+Demo\Entity\Account379|null
+class-string<Demo\Contract\Handler363>
+Demo\Contract\Repository437
+Demo\Entity\Photo482[]
+Traversable<array-key, Demo\Entity\Leaf512>
+Demo\Entity\Account376|null
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User116}
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User403}
+class-string<Demo\Contract\Handler221>
+iterable<int, Demo\Event\Message202>
+bool|null
+Demo\Entity\File252|Demo\Entity\Image252|null
+list<Demo\Entity\Row181>
+string|false
+Demo\Entity\User428
+Demo\Entity\Account93|null
+list<Demo\Entity\Line255>|null
+iterable<int, Demo\Event\Message205>
+Demo\Collection\TypedList215<Demo\Entity\Post215>
+Demo\Contract\Repository154
+list<Demo\Entity\Row323>
+callable
+array<int, Demo\Vo\Money337>
+Demo\Entity\Account239|null
+non-empty-array
+non-negative-int
+list<Demo\Entity\Row178>
+Closure(Demo\Dto\Request138): Demo\Dto\Response138
+list<Demo\Entity\Row322>
+Demo\Enum\Status412::ACTIVE
+?Demo\Entity\Order448
+Closure(Demo\Dto\Request421): Demo\Dto\Response421
+true
+Demo\Contract\Repository159
+Item313
+Demo\Entity\Photo342[]
+float|null
+Demo\Entity\User287
+Demo\Entity\Account378|null
+Demo\Contract\Repository302
+Demo\Collection\Map91<Demo\Vo\Key91, Demo\Vo\Value91>
+class-string<Demo\Contract\Handler224>
+string|null
+Demo\Collection\TypedList362<Demo\Entity\Post362>
+Demo\Contract\Arrayable424&Demo\Contract\Jsonable424
+Demo\Enum\Status269::ACTIVE
+Traversable<array-key, Demo\Entity\Leaf369>
+Demo\Entity\Account518|null
+Demo\Collection\TypedList499<Demo\Entity\Post499>
+?Demo\Entity\Order162
+Demo\Entity\Account381|null
+Demo\Dto\Result100|false
+class-string<Demo\Contract\Handler80>
+(Demo\Contract\Countable283&Stringable)[]
+Demo\Contract\Repository16
+Demo\Entity\Account237|null
+Demo\Entity\Account377|null
+list<Demo\Entity\Row36>
+\Demo\Dto\Payload318
+Demo\Contract\Repository439
+Demo\Entity\Photo343[]
+never
+?bool
+list<Demo\Entity\Row468>
+Generator<int, Demo\Entity\Chunk231, mixed, void>
+int|string
+array<string, list<Demo\Entity\Node495>>
+float[]
+Demo\Collection\Map232<Demo\Vo\Key232, Demo\Vo\Value232>
+array<int, Demo\Vo\Money54>
+non-empty-list<Demo\Entity\Tag206>
+Demo\Entity\User290
+Demo\Entity\User433
+list<Demo\Entity\Row42>
+Generator<int, Demo\Entity\Chunk373, mixed, void>
+iterable
+class-string<Demo\Contract\Handler365>
+Demo\Dto\Result384|false
+Demo\Contract\Repository153
+Generator<int, Demo\Entity\Chunk229, mixed, void>
+int[]
+array<string, Demo\Dto\Field190>
+Demo\Entity\User432
+list<Demo\Entity\Row183>
+Demo\Entity\File109|Demo\Entity\Image109|null
+negative-int
+Item456
+array|null
+array<string, Demo\Dto\Field186>
+array<string, mixed>
+callable(Demo\Entity\User418): bool
+Demo\Collection\TypedList360<Demo\Entity\Post360>
+int|null
+Demo\Entity\Account383|null
+iterable<int, Demo\Event\Message344>
+Demo\Entity\File251|Demo\Entity\Image251|null
+Demo\Entity\User289
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User402}
+array{id: positive-int, name: non-empty-string, owner: Demo\Entity\User260}
+iterable<int, Demo\Event\Message60>
+list<Demo\Entity\Row321>
+class-string<Demo\Contract\Handler82>
+Demo\Contract\Repository441
+?Demo\Entity\Order303
+?Demo\Entity\Order305
+Traversable<array-key, Demo\Entity\Leaf368>

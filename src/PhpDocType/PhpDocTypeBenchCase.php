@@ -19,12 +19,15 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
      * @var list<non-empty-string>
      */
     private const array SAMPLES = [
-        'common-type-25b.txt',
-        'common-type-250b.txt',
+        'common-type-10b.txt',
+        'common-type-64b.txt',
+        'common-type-256b.txt',
         'common-type-1k.txt',
-        'common-type-10k.txt',
+        'common-type-4k.txt',
+        'common-type-16k.txt',
+        'common-type-32k.txt',
         'common-type-100k.txt',
-        'common-type-250k.txt',
+        'workload.txt',
     ];
 
     /**
@@ -75,16 +78,23 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
     }
 
 
-    public function benchCommonType25b(): void
+    public function benchCommonType10b(): void
     {
-        foreach ($this->types['common-type-25b.txt'] as $type) {
+        foreach ($this->types['common-type-10b.txt'] as $type) {
             $this->parse($type);
         }
     }
 
-    public function benchCommonType250b(): void
+    public function benchCommonType64b(): void
     {
-        foreach ($this->types['common-type-250b.txt'] as $type) {
+        foreach ($this->types['common-type-64b.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType256b(): void
+    {
+        foreach ($this->types['common-type-256b.txt'] as $type) {
             $this->parse($type);
         }
     }
@@ -96,9 +106,23 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
-    public function benchCommonType10k(): void
+    public function benchCommonType4k(): void
     {
-        foreach ($this->types['common-type-10k.txt'] as $type) {
+        foreach ($this->types['common-type-4k.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType16k(): void
+    {
+        foreach ($this->types['common-type-16k.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
+
+    public function benchCommonType32k(): void
+    {
+        foreach ($this->types['common-type-32k.txt'] as $type) {
             $this->parse($type);
         }
     }
@@ -110,9 +134,13 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
-    public function benchCommonType250k(): void
+    /**
+     * The types an analyser reads most often, one per line: scalars, class
+     * names, generics, shapes and the unions they are written in.
+     */
+    public function benchWorkload(): void
     {
-        foreach ($this->types['common-type-250k.txt'] as $type) {
+        foreach ($this->types['workload.txt'] as $type) {
             $this->parse($type);
         }
     }
