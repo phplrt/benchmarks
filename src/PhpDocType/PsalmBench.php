@@ -7,7 +7,6 @@ namespace Phplrt\Bench\PhpDocType;
 use PhpBench\Attributes\BeforeMethods;
 use PhpBench\Attributes\Iterations;
 use PhpBench\Attributes\RetryThreshold;
-use PhpBench\Attributes\Revs;
 use Psalm\Config;
 use Psalm\Internal\Analyzer\ProjectAnalyzer;
 use Psalm\Internal\IncludeCollector;
@@ -16,7 +15,6 @@ use Psalm\Internal\Provider\Providers;
 use Psalm\Internal\Type\TypeParser;
 use Psalm\Internal\Type\TypeTokenizer;
 
-#[Revs(1)]
 #[Iterations(5)]
 #[RetryThreshold(5)]
 #[BeforeMethods('prepare')]

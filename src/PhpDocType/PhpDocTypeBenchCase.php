@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Phplrt\Bench\PhpDocType;
 
+use PhpBench\Attributes\Iterations;
+use PhpBench\Attributes\Revs;
+use PhpBench\Attributes\Warmup;
 use Phplrt\Bench\BenchCase;
 
 abstract readonly class PhpDocTypeBenchCase extends BenchCase
@@ -77,7 +80,18 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         return __DIR__ . '/Grammar/' . $name;
     }
 
+    #[Revs(1)]
+    #[Warmup(0)]
+    #[Iterations(10)]
+    public function benchColdStart(): void
+    {
+        foreach ($this->types['common-type-10b.txt'] as $type) {
+            $this->parse($type);
+        }
+    }
 
+    #[Revs(1000)]
+    #[Warmup(200)]
     public function benchCommonType10b(): void
     {
         foreach ($this->types['common-type-10b.txt'] as $type) {
@@ -85,6 +99,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(500)]
+    #[Warmup(100)]
     public function benchCommonType64b(): void
     {
         foreach ($this->types['common-type-64b.txt'] as $type) {
@@ -92,6 +108,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(200)]
+    #[Warmup(40)]
     public function benchCommonType256b(): void
     {
         foreach ($this->types['common-type-256b.txt'] as $type) {
@@ -99,6 +117,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(50)]
+    #[Warmup(10)]
     public function benchCommonType1k(): void
     {
         foreach ($this->types['common-type-1k.txt'] as $type) {
@@ -106,6 +126,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(20)]
+    #[Warmup(4)]
     public function benchCommonType4k(): void
     {
         foreach ($this->types['common-type-4k.txt'] as $type) {
@@ -113,6 +135,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(5)]
+    #[Warmup(2)]
     public function benchCommonType16k(): void
     {
         foreach ($this->types['common-type-16k.txt'] as $type) {
@@ -120,6 +144,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(3)]
+    #[Warmup(1)]
     public function benchCommonType32k(): void
     {
         foreach ($this->types['common-type-32k.txt'] as $type) {
@@ -127,6 +153,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
+    #[Revs(1)]
+    #[Warmup(1)]
     public function benchCommonType100k(): void
     {
         foreach ($this->types['common-type-100k.txt'] as $type) {
@@ -134,10 +162,8 @@ abstract readonly class PhpDocTypeBenchCase extends BenchCase
         }
     }
 
-    /**
-     * The types an analyser reads most often, one per line: scalars, class
-     * names, generics, shapes and the unions they are written in.
-     */
+    #[Revs(5)]
+    #[Warmup(1)]
     public function benchWorkload(): void
     {
         foreach ($this->types['workload.txt'] as $type) {

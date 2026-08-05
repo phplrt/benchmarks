@@ -7,14 +7,12 @@ namespace Phplrt\Bench\PhpDocType;
 use PhpBench\Attributes\BeforeMethods;
 use PhpBench\Attributes\Iterations;
 use PhpBench\Attributes\RetryThreshold;
-use PhpBench\Attributes\Revs;
 use Phplrt\Bench\Generated\PhplrtV4Parser;
 use Phplrt\Compiler\Compiler;
 use Phplrt\Parser\Parser;
 use Phplrt\Source\File;
 use Phplrt\Source\Source;
 
-#[Revs(1)]
 #[Iterations(5)]
 #[RetryThreshold(5)]
 #[BeforeMethods('prepare')]

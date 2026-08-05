@@ -8,8 +8,10 @@
         "opcache.enable": 1,
         "zend.assertions": -1,
         "opcache.enable_cli": 1,
+        "opcache.jit": "tracing",
         "opcache.jit_buffer_size": "128M",
         "xdebug.mode": "off",
+        "pcov.enabled": 0,
         "memory_limit": -1
     },
     "storage.xml_storage_path": "vendor/.phpbench",

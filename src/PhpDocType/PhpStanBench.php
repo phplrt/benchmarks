@@ -7,14 +7,12 @@ namespace Phplrt\Bench\PhpDocType;
 use PhpBench\Attributes\BeforeMethods;
 use PhpBench\Attributes\Iterations;
 use PhpBench\Attributes\RetryThreshold;
-use PhpBench\Attributes\Revs;
 use PHPStan\PhpDocParser\Lexer\Lexer;
 use PHPStan\PhpDocParser\Parser\ConstExprParser;
 use PHPStan\PhpDocParser\Parser\TokenIterator;
 use PHPStan\PhpDocParser\Parser\TypeParser;
 use PHPStan\PhpDocParser\ParserConfig;
 
-#[Revs(1)]
 #[Iterations(5)]
 #[RetryThreshold(5)]
 #[BeforeMethods('prepare')]

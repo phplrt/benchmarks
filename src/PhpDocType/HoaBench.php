@@ -10,9 +10,7 @@ use Hoa\File\Read;
 use PhpBench\Attributes\BeforeMethods;
 use PhpBench\Attributes\Iterations;
 use PhpBench\Attributes\RetryThreshold;
-use PhpBench\Attributes\Revs;
 
-#[Revs(1)]
 #[Iterations(5)]
 #[RetryThreshold(5)]
 #[BeforeMethods('prepare')]
